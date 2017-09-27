@@ -1,5 +1,5 @@
 # FilterableListDialog
-An Android list dialog with filtering the list items
+An Android list dialog showing list of items, with an EditText to filter items given in the list.
 
 ![Current Version](https://img.shields.io/badge/currentVersion-0.0.1-green.svg)
 ![Minimum SDK](https://img.shields.io/badge/minSdkVersion-14-orange.svg)
@@ -9,12 +9,6 @@ An Android list dialog with filtering the list items
 ### Gradle Dependency
 
 ```gradle
-repositories {
-    maven {
-        url 'https://dl.bintray.com/rohan2817/FilterableListDialog'
-    }
-}
-
 dependencies {
     compile 'me.rohanpeshkar.filterablelistdialog:filterablelistdialog:0.0.1'
 }
