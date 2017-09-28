@@ -9,9 +9,21 @@
         android:id="@+id/btn_click"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
         android:background="@null"
-        android:text="CLICK"
+        android:text="SELECT STATE"
         android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/txt_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_click"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Selected state here"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"/>
 
 </RelativeLayout>
